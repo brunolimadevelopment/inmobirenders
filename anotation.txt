@@ -1,0 +1,4 @@
+IMPEDIMENTOS
+- Ver configuração do tailwind se rola usar com astro.build. o arquivo de config foi criado manualmente.
+no layout tem um text-shadow-custom e um line-height para aplicar. 
+- o logo em SVG  não aparece.

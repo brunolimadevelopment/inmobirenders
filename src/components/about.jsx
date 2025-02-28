@@ -9,7 +9,8 @@ import {
 const About = () => {
   return (
     <section
-      className="relative w-full mt-20 flex flex-col items-center justify-between text-white 
+      className="relative w-full mt-20
+            flex flex-col items-center justify-between text-white 
             bg-no-repeat 
             bg-cover bg-center before:absolute 
             before:inset-0 before:bg-black before:opacity-50 h-full 

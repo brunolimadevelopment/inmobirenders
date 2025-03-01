@@ -2,13 +2,15 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="w-[75%] mt-[80px] mx-auto my-20 bg-[#f5f7fa] flex flex-col items-center opacity-95 transition-all duration-300">
-      <h2 className="text-4xl font-bold tracking-wider text-center text-black">
+    <section className="w-full mx-auto mt-20 bg-[#f5f7fa] flex flex-col items-center opacity-95 transition-all duration-300">
+      <h2 className="text-[35px] p-20px font-bold tracking-[2px] leading-10 text-center text-black">
         NUESTROS SERVICIOS
       </h2>
 
       <div className="mx-auto mb-10">
-        <span className="block w-12 h-1 bg-[#f1561f]"></span>
+        <span className="block text-center w-1.5 h-1 bg-[#f1561f]">
+          DIVISOR
+        </span>
       </div>
 
       <section className="flex justify-between w-full flex-row">

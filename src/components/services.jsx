@@ -2,20 +2,18 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="w-full mx-auto mt-20 bg-[#f5f7fa] flex flex-col items-center opacity-95 transition-all duration-300">
-      <h2 className="text-[35px] p-20px font-bold tracking-[2px] leading-10 text-center text-black">
+    <section className="w-full p-[20px] mx-auto mt-20 bg-[#f5f7fa] flex flex-col items-center opacity-95 transition-all duration-300">
+      <h2 className="text-[35px] p-20px mb-[20px] font-bold tracking-[2px] leading-10 text-center text-black">
         NUESTROS SERVICIOS
       </h2>
 
-      <div className="mx-auto mb-10">
-        <span className="block text-center w-1.5 h-1 bg-[#f1561f]">
-          DIVISOR
-        </span>
+      <div className="bg-[#f1561f] w-[48px] text-center p-2 mb-10">
+        <span className="block mx-auto"></span>
       </div>
 
-      <section className="flex justify-between w-full flex-row">
-        <div className="bg-white mx-5 w-1/3 flex flex-col items-center transition-all duration-300 hover:shadow-md">
-          <img src="images/services3.jpg" alt="Image" className="w-full" />
+      <section className="flex justify-between w-full flex-row container mx-auto px-5 max-w-screen-xl">
+        <div className="bg-white mx-5 flex flex-col items-center transition-all duration-300 hover:shadow-md">
+          <img src="src/images/services3.jpg" alt="Image" className="w-full" />
           <div className="p-8">
             <h3 className="text-xl font-bold tracking-wider uppercase text-center text-black mb-5">
               Obras sobre plano
@@ -28,8 +26,8 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white mx-5 w-1/3 flex flex-col items-center transition-all duration-300 hover:shadow-md">
-          <img src="images/services2.jpg" alt="Image" className="w-full" />
+        <div className="bg-white mx-5 w-1/6 flex flex-col items-center transition-all duration-300 hover:shadow-md">
+          <img src="src/images/services2.jpg" alt="Image" className="w-full" />
           <div className="p-8">
             <h3 className="text-xl font-bold tracking-wider uppercase text-center text-black mb-5">
               interiores y exteriores
@@ -42,8 +40,8 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white mx-5 w-1/3 flex flex-col items-center transition-all duration-300 hover:shadow-md">
-          <img src="images/services1.jpg" alt="Image" className="w-full" />
+        <div className="bg-white mx-5 w-1/6 flex flex-col items-center transition-all duration-300 hover:shadow-md">
+          <img src="src/images/services1.jpg" alt="Image" className="w-full" />
           <div className="p-8">
             <h3 className="text-xl font-bold tracking-wider uppercase text-center text-black mb-5">
               renderizados de reformas

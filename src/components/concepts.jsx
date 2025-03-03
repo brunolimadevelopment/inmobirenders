@@ -3,7 +3,7 @@ import IconHourglass from '../components/icons/iconHourglass'
 import Iconbamboo from '../components/icons/iconBamboo'
 
 import Concept from '../components/concept';
-
+import Carousel from '../components/carousel';
 
 export default function AboutSection() {
   return (
@@ -11,8 +11,8 @@ export default function AboutSection() {
       <div className="container-fluid flex gap-[120px]">
         <div className="flex">
 
-          <div className="bg-gray-500 w-[750px] h-[897px] mx-auto p-2 transition-all duration-300 box-border">
-            FOTO
+          <div className="bg-gray-500 w-[750px] h-[897px] mx-auto transition-all duration-300 box-border">
+            <Carousel client:only="react" />
           </div>
 
         </div>

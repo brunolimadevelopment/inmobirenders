@@ -6,7 +6,7 @@ export default function Carousel() {
     <Swiper
       spaceBetween={30}
       effect={'fade'}
-      speed={1500}
+      speed={3000}
       centeredSlides={true}
       autoplay={{
         delay: 2500,

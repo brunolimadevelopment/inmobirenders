@@ -7,12 +7,12 @@ const Services = () => {
         NUESTROS SERVICIOS
       </h2>
 
-      <div className="bg-[#f1561f] w-[48px] text-center p-2 mb-10">
+      <div className="bg-[#f1561f] w-[48px] text-center p-2 py-0 mb-10">
         <span className="block mx-auto"></span>
       </div>
 
       <section className="flex justify-between w-full flex-row container mx-auto px-5 max-w-screen-xl">
-        <div className="bg-white mx-5 flex flex-col items-center transition-all duration-300 hover:shadow-md">
+        <div className="bg-white mx-5 flex w-full flex-col items-center transition-all duration-300 hover:shadow-md">
           <img src="src/images/services3.jpg" alt="Image" className="w-full" />
           <div className="p-8">
             <h3 className="text-xl font-bold tracking-wider uppercase text-center text-black mb-5">
@@ -26,7 +26,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white mx-5 w-1/6 flex flex-col items-center transition-all duration-300 hover:shadow-md">
+        <div className="bg-white mx-5 w-full flex flex-col items-center transition-all duration-300 hover:shadow-md">
           <img src="src/images/services2.jpg" alt="Image" className="w-full" />
           <div className="p-8">
             <h3 className="text-xl font-bold tracking-wider uppercase text-center text-black mb-5">
@@ -40,7 +40,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white mx-5 w-1/6 flex flex-col items-center transition-all duration-300 hover:shadow-md">
+        <div className="bg-white mx-5 w-full flex flex-col items-center transition-all duration-300 hover:shadow-md">
           <img src="src/images/services1.jpg" alt="Image" className="w-full" />
           <div className="p-8">
             <h3 className="text-xl font-bold tracking-wider uppercase text-center text-black mb-5">

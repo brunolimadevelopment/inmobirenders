@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Reem+Kufi:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reem+Kufi:wght@400..700&display=swap');
+
 @import "swiper/css";
 @import 'swiper/css/effect-fade';
 
@@ -13,6 +15,14 @@ p {
   font-family: "Open Sans", Sans-serif;
 }
 
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;  
+
+}
 .container-fluid {
   @apply mx-auto w-full max-w-[1477px];
 }

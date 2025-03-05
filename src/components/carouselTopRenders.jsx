@@ -1,21 +1,27 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFade, Autoplay, Navigation } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 
 export default function Carousel() {
   return (
     <Swiper
-      spaceBetween={30}
-      effect={"fade"}
-      speed={3000}
-      centeredSlides={true}
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
-      loop={true}
-      modules={[Navigation, Autoplay, EffectFade]}
-      className="mySwiper"
+      modules={[Navigation, Pagination]}
+      spaceBetween={20}
+      slidesPerView={3}
+      slidesPerGroup={1}
+      navigation
+      pagination={{ clickable: true }}
+      loop
+      className="flex"
     >
+      <style>
+        {`
+      .swiper-button-next, .swiper-button-prev {
+        color: rgba(237, 237, 237, 0.9) !important;
+      }
+    `}
+      </style>
       <SwiperSlide>
         <img
           src="src/images/interior.png"
@@ -55,4 +61,4 @@ export default function Carousel() {
   );
 }
 
-// CAROUSEL RENDERS
+// CAROUSEL TOP RENDERS

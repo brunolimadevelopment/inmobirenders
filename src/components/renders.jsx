@@ -1,4 +1,5 @@
-import CarouselRenders from "../components/carouselRenders";
+import CarouselTopRenders from "../components/carouselTopRenders";
+import CarouselBottomRenders from "../components/carouselBottomRenders";
 
 export default function renders() {
   return (
@@ -21,7 +22,8 @@ export default function renders() {
       </div>
 
       <div className="w-3/4">
-        <CarouselRenders client:only="react" />
+        <CarouselTopRenders client:only="react" />
+        <CarouselBottomRenders client:only="react" />
       </div>
     </section>
   );

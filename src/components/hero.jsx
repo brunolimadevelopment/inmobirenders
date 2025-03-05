@@ -23,7 +23,7 @@ const Hero = () => {
 
         <div className="mt-8 flex flex-col">
           <span class="mb-4 tracking-[7px] text-[16px] font-semibold font-[Reem Kufi] uppercase text-white">Powered by global snopek</span>          
-          <Button className="w-[272px] h-[56px] hover:bg-transparent hover:text-white" url="https://api.whatsapp.com/send?phone=34634050913" text="Quiero una cotización"/>
+          <Button className="w-[272px] h-[56px] bg-[#F1561F] hover:bg-transparent hover:text-white" url="https://api.whatsapp.com/send?phone=34634050913" text="Quiero una cotización"/>
         </div>
       </div>
     </section>

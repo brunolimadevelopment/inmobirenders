@@ -4,7 +4,7 @@ export default function button({ url, text, className = "" }) {
     <a 
       className={`
         flex items-center justify-center
-        bg-[#F1561F] text-sm uppercase tracking-[1px]
+         text-sm uppercase tracking-[1px]
         no-underline leading-none letter- font-medium 
         font-[Reem Kufi] text-white border border-transparent 
          cursor-pointer transition-colors duration-200 

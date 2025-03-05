@@ -1,20 +1,21 @@
 ---
-import '../styles/global.css';
-import Header from '../components/header';
-import Concepts from '../components/concepts';
-import Hero from '../components/hero';
-import About from '../components/about';
-import Services from '../components/services'
-import Video from '../components/video'
-import Tour from '../components/tour'
+import "../styles/global.css";
+import Header from "../components/header";
+import Concepts from "../components/concepts";
+import Hero from "../components/hero";
+import About from "../components/about";
+import Services from "../components/services";
+import Video from "../components/video";
+import Tour from "../components/tour";
+import Renders from "../components/renders";
 
-import Footer from '../components/footer';
-
+import Footer from "../components/footer";
 
 // Welcome to Astro! Everything between these triple-dash code fences
 // is your "component frontmatter". It never runs in the browser.
 // console.log('This runs in your terminal, not the browser!');
 ---
+
 <!-- Below is your "component template." It's just HTML, but with
     some magic sprinkled in to help you build great templates. -->
 <html>
@@ -24,10 +25,10 @@ import Footer from '../components/footer';
   <body>
     <Header />
     <Hero />
-    <Concepts  client:only="react" />
+    <Concepts client:only="react" />
     <About />
     <Services />
-
+    <Renders />
     <Video />
     <Tour />
     <Footer />

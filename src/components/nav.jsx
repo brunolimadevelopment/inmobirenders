@@ -31,7 +31,7 @@ const Nav = () => {
           </a>
         </li>
       </ul>
-      <Button className="w-[179px] h-[56px] hover:bg-white" text="Contáctanos" url="https://api.whatsapp.com/send?phone=34634050913"/>
+      <Button className="w-[179px] h-[56px] bg-[#F1561F] hover:bg-white" text="Contáctanos" url="https://api.whatsapp.com/send?phone=34634050913"/>
     </nav>
   );
 };

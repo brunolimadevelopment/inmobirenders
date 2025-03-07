@@ -64,7 +64,7 @@ const Footer = () => {
               <ul className="mt-[60px]">
                 <li className="pb-[8px]">
                   <a href="#">
-                    <img src="" alt="" />
+                    <img src="" alt="images" />
                   </a>
                 </li>
               </ul>

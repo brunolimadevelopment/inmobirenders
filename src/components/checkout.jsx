@@ -1,9 +1,11 @@
+import CardCheckout from './cardCheckout'
+
 export default function checkout() {
   return (
     <section className="w-full pt-[40px] pb-[40px]" style={{ backgroundImage: "url('src/images/render-scaled.jpg')" }}>
         <div className="container">
-            <h2 className="text-center text-[35px] font-bold text-white uppercase font-[Reem Kufi] leading-tight tracking-[2px] leading-[1.2]">¡Promoción otoño/invierno!</h2>
-            
+            <h2 className="text-center text-[35px] font-bold text-white uppercase font-[Reem Kufi] leading-tight tracking-[2px] leading-[1.2] pt-[80px] pb-[80px]">¡Promoción otoño/invierno!</h2>
+            <CardCheckout />
         </div>
     </section>
   )

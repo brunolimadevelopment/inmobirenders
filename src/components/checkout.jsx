@@ -2,8 +2,8 @@ import CardCheckout from './cardCheckout'
 
 export default function checkout() {
   return (
-    <section className="w-full pt-[40px] pb-[40px]" style={{ backgroundImage: "url('src/images/render-scaled.jpg')" }}>
-        <div className="container">
+    <section className="w-full pt-[40px] pb-[40px] bg-no-repeat bg-cover relative before:absolute before:inset-0 before:bg-[hsl(0deg_0%_0%/_65%)] before:content-['']" style={{ backgroundImage: "url('src/images/render-scaled.jpg')" }}>
+        <div className="container relative">
             <h2 className="text-center text-[35px] font-bold text-white uppercase font-[Reem Kufi] leading-tight tracking-[2px] leading-[1.2] pt-[80px] pb-[80px]">¡Promoción otoño/invierno!</h2>
             <div className="flex justify-center gap-[20px]">
               <CardCheckout tarja={false} width={270} text={'1 Render Estático en pack x 5u'} description={'imagen plana'} price={80} discount={50} plus={null} />

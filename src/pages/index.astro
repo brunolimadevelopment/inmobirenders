@@ -8,8 +8,9 @@ import Services from "../components/services";
 import Video from "../components/video";
 import Tour from "../components/tour";
 import Renders from "../components/renders";
-
+import RendersComerciales from "../components/rendersComerciales";
 import CallToAction from "../components/callToAction";
+
 import Footer from "../components/footer";
 
 // Welcome to Astro! Everything between these triple-dash code fences
@@ -32,7 +33,7 @@ import Footer from "../components/footer";
     <Renders client:only="react" />
     <Video />
     <Tour />
-
+    <RendersComerciales client:only="react" />
     <CallToAction />
     <Footer />
   </body>

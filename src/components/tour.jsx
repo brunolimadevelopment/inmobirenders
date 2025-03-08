@@ -1,7 +1,7 @@
 export default function Tour() {
   return (
     <section className="w-4/5 p-[20px] mx-auto mt-20 bg-[#f5f7fa] flex flex-col items-center opacity-95 transition-all duration-300">
-      <h2 className="text-[50px] mb-[20px] font-bold tracking-[2px] leading-10 uppercase text-center text-black">
+      <h2 className="text-[50px] mb-[20px] font-bold tracking-[2px] leading-16 uppercase text-center text-black">
         Tour virtual interactivo
       </h2>
 

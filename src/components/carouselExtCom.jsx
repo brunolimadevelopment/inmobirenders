@@ -23,50 +23,43 @@ export default function Carousel({ images }) {
       </style>
       <SwiperSlide>
         <img
-          src="src/images/bottomRenders1.png"
+          src="src/images/comercialRenders1.webp"
           alt="Slide 1"
           className="w-full h-full object-cover"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          src="src/images/bottomRenders2.png"
+          src="src/images/comercialRenders2.webp"
           alt="Slide 2"
           className="w-full h-full object-cover"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          src="src/images/bottomRenders3.png"
+          src="src/images/comercialRenders3.webp"
           alt="Slide 3"
           className="w-full h-full object-cover"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          src="src/images/bottomRenders4.png"
+          src="src/images/comercialRenders4.webp"
           alt="Slide 4"
           className="w-full h-full object-cover"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          src="src/images/bottomRenders5.png"
+          src="src/images/comercialRenders5.webp"
           alt="Slide 5"
           className="w-full h-full object-cover"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          src="src/images/bottomRenders6.png"
-          alt="Slide 5"
-          className="w-full h-full object-cover"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          src="src/images/bottomRenders7.png"
-          alt="Slide 5"
+          src="src/images/comercialRenders6.webp"
+          alt="Slide 6"
           className="w-full h-full object-cover"
         />
       </SwiperSlide>
